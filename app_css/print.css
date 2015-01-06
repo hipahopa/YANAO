@@ -1,0 +1,32 @@
+@media print {
+  .header .top_menu {
+    display: none;
+  }
+  .header .phone_block .button_wrapper {
+    display: none;
+  }
+  .header {
+    height: 105px;
+  }
+  .info_line .services_block {
+    display: none;
+  }
+  .sidebar div {
+    display: none;
+  }
+  .sidebar .banner {
+    display: block;
+  }
+  .bottom_menu {
+    display: none;
+  }
+  .footer .bottom_line {
+    margin-top: 0;
+  }
+  .footer .bottom_line .bottom_search {
+    display: none;
+  }
+  .footer .bottom_line .socials {
+    display: none;
+  }
+}
